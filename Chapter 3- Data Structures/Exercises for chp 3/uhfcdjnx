@@ -1,0 +1,15 @@
+guests = ['Alice', 'Bob', 'Charlie', 'David', 'Eva']
+
+print("Unfortunately, the dinner table won't arrive in time for the dinner.")
+print("We can invite only two people for dinner.")
+
+while len(guests) > 2:
+    guest = guests.pop()
+    print(f"Sorry {guest}, we can't invite you to dinner.")
+
+for guest in guests:
+    print(f"{guest}, you're still invited to dinner.")
+
+del guests[0], guests[1]
+print("Invitation list is empty.")
+print(guests)

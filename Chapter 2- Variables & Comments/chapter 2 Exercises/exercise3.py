@@ -3,13 +3,13 @@
 #Print the name once, so the whitespace around the name is displayed. 
 #Then print the name using each of the three stripping functions, lstrip(), rstrip(), and strip().
 
-#Define a variable to represent a person's name
+#Use a variable to represent a person's name
 name = "\tFaisal\n"
 
 #Print the name once, so the whitespace around the name is displayed
 print("Original name:", name)
 
-#Print the name using each of the three stripping functions
+#Then print the name using each of the three stripping functions, lstrip(), rstrip(), and strip().
 print("Name after lstrip():", name.lstrip())
 print("Name after rstrip():", name.rstrip())
 print("Name after strip():", name.strip())

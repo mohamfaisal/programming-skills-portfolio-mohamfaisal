@@ -3,13 +3,15 @@
 #You will to use the arithmetic operators to complete this exercise.
 
 #Define the cost of a USB stick and the amount of money the girl has
-print("USB Stick price 6.\n Note: Girl has 50.")
+per_usb_stick = 6
+amount_of_money = 50
 
 #Calculate the number of USB sticks the girl can buy
-quantity = int(input("How many can the Girl buy: "))
+number_of_usb_sticks = amount_of_money // per_usb_stick
 
 #Calculate the amount of money the girl will have left
-print = int(50 - (quantity * 6))
+money_left = amount_of_money % per_usb_stick
 
 #print the result 
-print("The Girl's change is: \n", price)
+print(f"The girl can buy {number_of_usb_sticks} USB sticks.")
+print(f"She will have {money_left} pounds left.")

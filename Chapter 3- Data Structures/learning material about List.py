@@ -24,7 +24,7 @@ print(numbers[-4])
 numbers =[1,2,3,4,45,5,6,67,7,8,8,99,9,65,54,33,23]
 print("number of elements in a list :" ,len(numbers))
 
-#list is mutable (changeble / update your list)
+#list is mutable (changeble / replacement of list)
 numbers =[5,6,7,8,3,4]
 numbers[0] = 1
 numbers[1] = 9
@@ -80,5 +80,5 @@ New_list7.remove(6)
 print(New_list7)
 
 #min max number
-print(max(New_list7))     #(to identify the highest value from the list)
-print(min(New_list7))
+print(max(New_list7))     #(MAX is to identify the highest value from the list)
+print(min(New_list7))     #(MIN is to identify the lowest value from the list)

@@ -18,3 +18,4 @@ for river in rivers.keys():
 
 for country in rivers.values():
     print(f"One country included in the dictionary is {country.capitalize()}.")
+    

@@ -4,7 +4,7 @@
 # move it to the list of finished sandwiches.
 # After all the sandwiches have been made, print a message listing each sandwich that was made.
 
-sandwich_orders = ['chicken sandwich', 'falafel sandwich', 'egg sandwich', 'grilled cheese sandwich', 'beef sandwich']
+sandwich_orders = ['chicken sandwich', 'falafel sandwich', 'Mutton sandwich', 'grilled cheese sandwich', 'beef sandwich']
 finished_sandwiches = []
 
 for order in sandwich_orders:

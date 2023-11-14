@@ -4,7 +4,7 @@
 # and then use a while loop to remove all occurrences of 'pastrami' from sandwich_orders.
 # Make sure no pastrami sandwiches end up in finished_sandwiches.
 
-sandwich_orders = ['chicken sandwich', 'falafel sandwich', 'egg sandwich', 'grilled cheese sandwich', 'beef sandwich','pastrami sandwich', 'pastrami sandwich', 'pastrami sandwich']
+sandwich_orders = ['chicken sandwich', 'falafel sandwich', 'Mutton sandwich', 'grilled cheese sandwich', 'beef sandwich','pastrami sandwich', 'pastrami sandwich', 'pastrami sandwich']
 finished_sandwiches = []
 
 pastrami_count = sandwich_orders.count('pastrami sandwich')

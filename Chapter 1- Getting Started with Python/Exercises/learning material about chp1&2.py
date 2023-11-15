@@ -1,8 +1,8 @@
-print("Name", ":faisal", 2005)
-print("address", ":al nuaimiya-1","al enjaaz street", 4564576)
+print("Name", ":Faisal", 2005)
+print("address", ":al nuaimiya-1","al enjaaz street", 2023467)
 
 #Variable Reassighnment 
-name = "faisal"
+name = "Faisal"
 name = "bathspa"
 print(name)
 
@@ -21,7 +21,7 @@ print(name)
 print(age)'''
 
 #Type Casting
-age = int(input ("Enter you age"))
+age = int(input ("Enter your age"))
 print(age)
 
 #Math operators
@@ -36,7 +36,7 @@ f_name = " Mohammed "
 l_name = " Faisal "
 name = f_name + l_name
 print(name,end ="")
-print (" new line message")
+print (" New line message")
 
 ##special characters appearning in string literal 
 #preceeded by backslash (\)
@@ -45,17 +45,17 @@ f_name = " Mohammed "
 l_name = " Faisal "
 name = f_name + l_name
 print(name,end ="\n")
-print (" new line message")
+print (" New line message")
 
 #f-string function helps us to compute the both values 
 #example1-
-print('the value is {10 + 2}.' )
+print('The value is {10 + 2}.' )
 #ans- the output is 10 + 2 
-print(f'the value is {10 + 2}')
+print(f'The value is {10 + 2}')
 #ans- the output is 12
 #example2- 
 val = 10
-print(f'the value is {val + 2} ')
+print(f'The value is {val + 2} ')
 #ans- the output is 12
 
 

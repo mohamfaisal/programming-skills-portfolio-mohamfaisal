@@ -1,6 +1,7 @@
 # Write a python program that takes an input 5 from user and then type cast those values to string, int
 # and float in the separate variables. Print all the variables
 # Function to calculate the average
+
 def calculate_average(course_marks):
     return sum(course_marks) / len(course_marks)
 

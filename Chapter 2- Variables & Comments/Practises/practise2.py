@@ -2,11 +2,11 @@
 # After calculating the average, calculate the percentage of a student using total marks. 
 # Assume the total of all the courses marks is 500 or take the total marks from the user as input.
 
-# Function to calculate the average
+# calculate the average
 def calculate_average(course_marks):
     return sum(course_marks) / len(course_marks)
 
-# Function to calculate the percentage
+# calculate the percentage
 def calculate_percentage(average, total_marks):
     return (average / total_marks) * 100
 

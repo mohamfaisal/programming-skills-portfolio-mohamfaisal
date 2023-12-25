@@ -11,14 +11,6 @@ def print_message():
 # Calling Function 
 print_message()
 
-# If i call this message it shows an error 
-
-def print_message():
-    message = "Hello Students"   # Local variable 
-    print(message)
-print(message)      # message is not defined because local variable life is inside of program
-print_message()
-
 # Different functions have same local variables name - No syntax error 
 
 def print_message():
